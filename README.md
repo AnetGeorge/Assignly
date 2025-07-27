@@ -1,29 +1,51 @@
-# ✅ TaskTrackr — Your Minimal, Powerful Daily Task Organizer
+# ✅ TaskTrackr — Role-Based Task Management System
 
-A modern, lightweight task management web app that helps you stay organized and productive. Built using pure HTML, CSS, and JavaScript.
+**TaskTrackr** is a responsive task management web app built with React, designed for organizations to streamline work assignments. With two distinct roles — Manager and Employee — the app provides a smart, simple way to delegate and complete tasks effectively.
 
 
-
----
-
-## 🌟 Features
-
-- ➕ Add tasks with title, due date, and category
-- ✅ Mark tasks as completed
-- 📝 Edit and delete tasks
-- 🗂️ Filter tasks by category (Work, Personal, Urgent)
-- 🔍 Live search functionality
-- 💾 Data persistence using browser's LocalStorage
 
 ---
 
-## 🧰 Tech Stack
+## 👥 Role-Based Access
 
-- HTML5
-- CSS3 (with Flexbox/Responsive Design)
-- JavaScript (Vanilla)
-- Bootstrap (Optional)
+- 👔 **Manager Login**
+  - Create and assign tasks to employees
+  - Track task status
+  - Edit/delete tasks
+  - View task dashboard across all users
+
+- 👩‍💼 **Employee Login**
+  - View personal task list
+  - Mark tasks as completed
+  - Update task progress
+  - Filter and sort tasks
+
+> Login credentials are role-based (can be hardcoded or use mock authentication for demo)
 
 ---
+
+## ✨ Features
+
+- 📝 Add, assign, and delete tasks
+- 🗂️ Categorize by priority or department
+- ✅ Mark as completed, pending, in-progress
+- 🔐 Separate dashboards for Manager & Employee
+- 🔍 Filter/search by task name, status, or assignee
+- 🧾 Persistent task list (via local storage or backend API-ready)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (with functional components & hooks)
+- **Styling:** Bootstrap 5, Custom CSS
+- **Icons:** FontAwesome / React Icons
+- **Routing:** React Router DOM
+- **State Management:** useState, useEffect (or Redux if added later)
+- **Authentication:** Mock-based role login (or Firebase-ready)
+- **Storage:** LocalStorage (optional to integrate with backend/API)
+
+---
+
 
 
