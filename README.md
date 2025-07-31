@@ -1,51 +1,47 @@
-# ✅ TaskTrackr — Role-Based Task Management System
+# 📝 Task Manager App
 
-**TaskTrackr** is a responsive task management web app built with React, designed for organizations to streamline work assignments. With two distinct roles — Manager and Employee — the app provides a smart, simple way to delegate and complete tasks effectively.
+A lightweight and user-friendly Task Manager built with **React** (Frontend), **Spring Boot** (Backend), and **PostgreSQL** (Database). This application allows two types of users — **Manager** and **Employee** — to manage tasks efficiently with deadlines and categories.
 
+---
+
+## 🚀 Features
+
+### 👨‍💼 Manager Features:
+- Add new tasks with title, category, deadline, and description
+- Edit and update existing tasks
+- Delete tasks
+- View all tasks
+- Toggle task completion status
+
+### 👩‍💻 Employee Features:
+- View assigned tasks
+- Mark tasks as completed (read-only mode except toggle)
+- Secure logout
+
+---
+
+## 🛠 Tech Stack
+
+| Layer     | Technology     |
+|-----------|----------------|
+| Frontend  | React, CSS     |
+| Backend   | Spring Boot    |
+| Database  | PostgreSQL     |
 
 
 ---
 
-## 👥 Role-Based Access
+## ⚙️ React Hooks Used
 
-- 👔 **Manager Login**
-  - Create and assign tasks to employees
-  - Track task status
-  - Edit/delete tasks
-  - View task dashboard across all users
+| Hook        | Purpose |
+|-------------|---------|
+| `useState`  | Manage local component state (task data, form inputs, etc.) |
+| `useEffect` | Fetch task data from backend on page load |
+| `useNavigate` | Used to redirect after login/logout |
+| `useLocation` | To get the current route/location    |
 
-- 👩‍💼 **Employee Login**
-  - View personal task list
-  - Mark tasks as completed
-  - Update task progress
-  - Filter and sort tasks
 
-> Login credentials are role-based (can be hardcoded or use mock authentication for demo)
 
----
-
-## ✨ Features
-
-- 📝 Add, assign, and delete tasks
-- 🗂️ Categorize by priority or department
-- ✅ Mark as completed, pending, in-progress
-- 🔐 Separate dashboards for Manager & Employee
-- 🔍 Filter/search by task name, status, or assignee
-- 🧾 Persistent task list (via local storage or backend API-ready)
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React.js (with functional components & hooks)
-- **Styling:** Bootstrap 5, Custom CSS
-- **Icons:** FontAwesome / React Icons
-- **Routing:** React Router DOM
-- **State Management:** useState, useEffect (or Redux if added later)
-- **Authentication:** Mock-based role login (or Firebase-ready)
-- **Storage:** LocalStorage (optional to integrate with backend/API)
-
----
 
 
 
