@@ -1,0 +1,4 @@
+com\anet\taskmanager\BackenedApplication.class
+com\anet\taskmanager\Task.class
+com\anet\taskmanager\TaskRepository.class
+com\anet\taskmanager\TaskController.class
