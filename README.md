@@ -1,4 +1,5 @@
-# 📝 Task Manager App
+# 📝 Assignly
+Task Manager App
 
 A lightweight and user-friendly Task Manager built with **React** (Frontend), **Spring Boot** (Backend), and **PostgreSQL** (Database). This application allows two types of users — **Manager** and **Employee** — to manage tasks efficiently with deadlines and categories.
 
