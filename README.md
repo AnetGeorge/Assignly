@@ -20,7 +20,11 @@ A lightweight and user-friendly Task Manager built with **React** (Frontend), **
 - Secure logout
 
 ---
+## 🖼️ Project Screenshot
 
+![Task Manager UI](assets/Screenshot_2025_07_27_201012.png)
+
+---
 ## 🛠 Tech Stack
 
 | Layer     | Technology     |
