@@ -19,10 +19,6 @@ A lightweight and user-friendly Task Manager built with **React** (Frontend), **
 - Mark tasks as completed (read-only mode except toggle)
 - Secure logout
 
----
-## 🖼️ Project Screenshot
-
-![Task Manager UI](assets/Screenshot_2025_07_27_201012.png)
 
 ---
 ## 🛠 Tech Stack
